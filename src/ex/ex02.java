@@ -26,8 +26,6 @@ public class ex02 {//部分 乘上其電費金額
 			System.out.println(120*2.10f+210*2.68f+170*3.61f+(a-500)*4.01f);
 		}
 		else{
-			System.out.println();
-			System.out.println();
 			System.out.println(120*2.10f+210*3.02f+170*4.39f+200*4.97f+(a-700)*5.63f);
 			System.out.println(120*2.10f+210*2.68f+170*3.61f+200*4.01f+(a-700)*4.50f);
 		}
