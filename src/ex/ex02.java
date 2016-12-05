@@ -10,24 +10,24 @@ public class ex02 {
 		Scanner sc=new Scanner(System.in);
 		float a=sc.nextFloat();
 		if(a<=120){
-			System.out.print(a*2.10f);
-			System.out.print(a*2.10f);
+			System.out.println(a*2.10f);
+			System.out.println(a*2.10f);
 		}
 		else if(a>120&&a<=330){
-			System.out.print(a*3.02f);
-			System.out.print(a*2.68f);
+			System.out.println(a*3.02f);
+			System.out.println(a*2.68f);
 		}
 		else if(a>330&&a<=500){
-			System.out.print(a*4.39f);
-			System.out.print(a*3.61f);
+			System.out.println(a*4.39f);
+			System.out.println(a*3.61f);
 		}
 		else if(a>500&&a<=700){
-			System.out.print(a*4.97f);
-			System.out.print(a*4.01f);
+			System.out.println(a*4.97f);
+			System.out.println(a*4.01f);
 		}
 		else{
-			System.out.print(a*5.63f);
-			System.out.print(a*4.50f);
+			System.out.println(a*5.63f);
+			System.out.println(a*4.50f);
 		}
 		
 	}
